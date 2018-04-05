@@ -19,7 +19,7 @@ function getFeed($feed_url) {
 
       }
 
-      echo "<a href='' class='title' onclick='popUp(\"http://sandrapoll.com/proovitoo/popup.php?url=$url\")'>" . $entry->title . "</a>
+      echo "<a href='' class='title' onclick='popUp(\"https://sandrapoll.herokuapp.com/popup.php?url=$url\")'>" . $entry->title . "</a>
       <p class='description'>$entry->description</p></div>";
     }
 
