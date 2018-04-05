@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.article {
+  flex-basis: 400px;
+  position: relative;
+  vertical-align: top;
+  padding-top: 15px;
+  word-wrap: break-word;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #505050;
+}
+
+.title, .description {
+  text-align: left;
+}
